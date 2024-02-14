@@ -1,0 +1,21 @@
+﻿    public static int SolveProblem(int numoftowers, int towerheight)
+    {
+        //if num of towers is even, player 2 will always wins
+        //if num of towers is 1, player 1 will always win
+        //if towers height is 1, player 2 will always wins (because player 1 can't make a move at first)
+        
+        int playerwinner = 0;
+
+        if (towerheight == 1 || numoftowers % 2 == 0)
+        {
+            playerwinner = 2;
+        }
+        else
+        {
+            playerwinner = 1;
+            
+        }
+        
+        return playerwinner;
+        
+    }

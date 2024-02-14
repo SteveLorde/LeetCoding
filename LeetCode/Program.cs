@@ -6,8 +6,12 @@ class Program
 {
     public static void Main(string[] args)
     {
-        Solution.SolveProblem();
+        //1-read problem data
         
-        Console.WriteLine("hey");
+        //2-solve problem
+        var result = Solution.SolveProblem();
+        
+        //3-output result
+        Console.WriteLine(result);
     }
 }

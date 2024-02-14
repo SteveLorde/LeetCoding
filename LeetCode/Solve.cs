@@ -2,13 +2,9 @@
 
 public class Solution
 {
-    public static void SolveProblem()
+    public static int SolveProblem()
     {
         
     }
-
-    public void Shit()
-    {
-        
-    }
+    
 }
